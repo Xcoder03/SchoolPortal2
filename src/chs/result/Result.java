@@ -6,6 +6,15 @@ public class Result {
     private int examScore;
     private  int totalScore;
 
+    public Result(int firstTest, int secondTest, int examScore) {
+        this.firstTest = firstTest;
+        this.secondTest = secondTest;
+        this.examScore = examScore;
+    }
+
+    public Result() {
+    }
+
     public int getFirstTest() {
         return firstTest;
     }

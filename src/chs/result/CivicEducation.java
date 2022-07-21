@@ -1,6 +1,10 @@
 package chs.result;
 
 public class CivicEducation extends Result{
+    public CivicEducation(int firstTest, int secondTest, int examScore) {
+        super(firstTest, secondTest, examScore);
+    }
+
     @Override
     public int getFirstTest() {
         return super.getFirstTest();

@@ -1,6 +1,9 @@
 package chs.result;
 
 public class EnglishLanguage extends Result {
+    public EnglishLanguage(int firstTest, int secondTest, int examScore) {
+        super(firstTest, secondTest, examScore);
+    }
 
     @Override
     public int getFirstTest() {

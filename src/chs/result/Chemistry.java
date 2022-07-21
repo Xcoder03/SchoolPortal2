@@ -1,6 +1,10 @@
 package chs.result;
 
 public class Chemistry extends Result{
+    public Chemistry(int firstTest, int secondTest, int examScore) {
+        super(firstTest, secondTest, examScore);
+    }
+
     @Override
     public int getFirstTest() {
         return super.getFirstTest();

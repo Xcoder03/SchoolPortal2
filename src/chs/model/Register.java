@@ -1,4 +1,4 @@
-package chs;
+package chs.model;
 
 public class Register{
     private int id;
